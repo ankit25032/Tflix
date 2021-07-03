@@ -1,0 +1,14 @@
+body {
+  background: tomato;
+}
+.scale {
+  animation: ss 3s ease-in-out;
+}
+@keyframes ss {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
