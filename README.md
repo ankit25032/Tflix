@@ -7,9 +7,11 @@ Tflix is ad-free streaming website.
 - Watch Anywhere Anytime.
 
 **Technical**:-
+
 Tflix uses **Google Drive** as Movies Database and using the Cloudflare Workers by indexing the gdrive files we Serve them on Tflix.
 
 **Tech-Stack**
+
 1.Front End is made using **React.js.**
 
 2.At backend to decrypt the Streaming Link we use **Node.js**.
