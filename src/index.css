@@ -1,14 +1,20 @@
 body {
   background: tomato;
+  overflow-x: hidden;
+}
+.root {
+  overflow-x: hidden;
 }
 .scale {
-  animation: ss 3s ease-in-out;
+  /* animation: ss 1.5s ease-in-out; */
+  transform: scale(1.05);
+  transition: 1.5s all;
 }
-@keyframes ss {
+/* @keyframes ss {
   0% {
     transform: scale(1);
   }
   100% {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
-}
+} */

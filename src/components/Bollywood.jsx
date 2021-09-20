@@ -4,22 +4,20 @@ const Bollywood = () => {
   return (
     <>
       <Navigation />
-      <Bmovies j={870} k={900} />
-      <Bmovies j={840} k={870} />
-      <Bmovies j={810} k={840} />
-      <Bmovies j={561} k={600} />
-      <Bmovies j={531} k={560} />
 
-      <Bmovies j={400} k={430} />
-      <Bmovies j={61} k={100} />
-      <Bmovies j={331} k={360} />
-      <Bmovies j={361} k={400} />
-      <Bmovies j={261} k={300} />
-      <Bmovies j={201} k={230} />
-      <Bmovies j={231} k={260} />
-      <Bmovies j={301} k={330} />
-      <Bmovies j={501} k={530} />
-      <Bmovies j={431} k={460} />
+      <Bmovies j={1000} k={1040} />
+      <Bmovies j={1500} k={1550} />
+
+      <Bmovies j={1600} k={1650} />
+      <Bmovies j={1700} k={1750} />
+      <Bmovies j={1800} k={1850} />
+      <Bmovies j={1900} k={1950} />
+      <Bmovies j={2000} k={2050} />
+      <Bmovies j={2150} k={2150} />
+      <Bmovies j={1100} k={1150} />
+      <Bmovies j={1200} k={1250} />
+      <Bmovies j={1300} k={1350} />
+      <Bmovies j={1400} k={1450} />
       <Bmovies j={461} k={500} />
       <Bmovies j={1} k={30} />
       <Bmovies j={31} k={60} />
@@ -29,8 +27,6 @@ const Bollywood = () => {
 
       <Bmovies j={231} k={260} />
 
-      <Bmovies j={631} k={660} />
-      <Bmovies j={662} k={700} />
       <div className="credit">
         <img src="./images/netflix-logo-png-2583.png" alt="" />
         Design By Ankit

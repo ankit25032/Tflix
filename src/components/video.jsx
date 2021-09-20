@@ -8,6 +8,8 @@ import { useEffect } from "react";
 const Video = () => {
   const history = useHistory();
   let { id } = useParams();
+  let mainid = encodeURIComponent(id);
+
   const [link, setlink] = useState([]);
 
   const disable = useRef();
@@ -15,7 +17,7 @@ const Video = () => {
   const icon = useRef();
 
   useEffect(() => {
-    fetch(`https://netflix-ankit.ankitzxi05.repl.co/${id}`)
+    fetch(`https://netfix-ankit.ankit5522.repl.co/${mainid}`)
       .then((res) => {
         return res.json();
       })

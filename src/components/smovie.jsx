@@ -20,7 +20,7 @@ const Smovies = (props) => {
     document.body.classList.add("scale");
     setTimeout(() => {
       window.location.assign(`/video/${encodeURIComponent(props.link)}`);
-    }, 1000);
+    }, 700);
   }
   return (
     <>

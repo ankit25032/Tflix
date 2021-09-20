@@ -1,16 +1,25 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import ReactDOM from "react-dom";
+import { hydrate, render } from "react-dom";
 import "./index.css";
 import App from "./App";
 import registerServiceWorker from "./registerServiceWorker";
- 
 
-
-
-ReactDOM.render(
+const rootElement = document.getElementById("root");
+if (rootElement.hasChildNodes()) {
+  hydrate(
+    <>
+      <Router>
+        <App />
+      </Router>
+    </>,
+    rootElement
+  );
+} else {
+  render(
     <Router>
-<App />
-</Router>
-, document.getElementById("root"));
-registerServiceWorker();
+      (<App />
+    </Router>,
+    rootElement
+  );
+}

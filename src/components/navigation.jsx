@@ -17,6 +17,7 @@ const Navigation = () => {
       setdip("bars");
     }
   }
+  function handleScroll() {}
   return (
     <>
       <div className="nav" ref={nav}>

@@ -25,27 +25,10 @@ const Search = () => {
   async function call(name) {
     const rname = capitalize(name);
     let bindex = [];
-    const res = await fetch("./bollywood.json");
-    const data = await res.json();
-    for (let i = 0; i < 986; i++) {
-      console.log("hejjej");
-      if (data[i].title.includes(rname)) {
-        bindex.push(
-          <Smovies
-            key={i}
-            imgUrl={data[i].imgurl}
-            title={data[i].title}
-            link={data[i].dlink}
-            over={data[i].overview}
-            rating={data[i].rating}
-          />
-        );
-      }
-    }
 
     const res2 = await fetch("./config.json");
     const data2 = await res2.json();
-    for (let i = 0; i < 849; i++) {
+    for (let i = 0; i < 660; i++) {
       if (data2[i].title.includes(rname)) {
         bindex.push(
           <Smovies
@@ -55,6 +38,22 @@ const Search = () => {
             link={data2[i].dlink}
             over={data2[i].overview}
             rating={data2[i].rating}
+          />
+        );
+      }
+    }
+    const res3 = await fetch("./bollywood.json");
+    const data3 = await res3.json();
+    for (let i = 0; i < 2100; i++) {
+      if (await data3[i].title.includes(rname)) {
+        bindex.push(
+          <Smovies
+            key={i}
+            imgUrl={data3[i].imgurl}
+            title={data3[i].title}
+            link={data3[i].dlink}
+            over={data3[i].overview}
+            rating={data3[i].rating}
           />
         );
       }
@@ -109,7 +108,7 @@ const Search = () => {
         </button>
       </div>
       <div className={`menuitems ${disp}`}>
-        <Link to="/" className="home">
+        <Link to="/" href="#type">
           Home
         </Link>
         <Link to="/movies" href="#type">
@@ -133,7 +132,7 @@ const Search = () => {
       </div>
       <>
         <div className="container2 scontain" ref={clean}>
-          <div className="main-2">{set}</div>
+          <div className="main-3">{set}</div>
         </div>
       </>
     </>

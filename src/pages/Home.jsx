@@ -14,12 +14,7 @@ const Home = () => {
       <Navigation />
 
       <div className="backimage">
-        <img
-          className="back"
-          style={{ width: "100vw" }}
-          src="./images/poster-min.jpg"
-          alt=""
-        />
+        <img className="back" src="./images/poster-min.jpg" alt="" />
       </div>
       <div className="back-text">
         <img className="back-img" src="./images/back-text.png" alt="" />
