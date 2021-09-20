@@ -21,10 +21,10 @@ Tflix uses **Google Drive** as Movies Database and using the Cloudflare Workers 
 5.Hosted On Frontend [Netlify](https://netlify.com) and Backend [repl.it](https://repl.it).
 
 **ScreenShots**      :::-
-1. <img src="https://i.ibb.co/nnx0nXg/Screenshot-270.png" alt="drawing" width="450"/>
-2. <img src="https://i.ibb.co/zHvRnLc/Screenshot-271.png" alt="drawing" width="450"/>
-3. <img src="https://i.ibb.co/nnx0nXg/Screenshot-272.png" alt="drawing" width="450"/>
-4. <img src="https://i.ibb.co/nnx0nXg/Screenshot-273.png" alt="drawing" width="450"/>
+1. <img src="https://i.ibb.co/86fh3bn/Screenshot-270.png" alt="drawing" width="480"/>
+2. <img src="https://i.ibb.co/v1ZLQTv/Screenshot-271.png" alt="drawing" width="480"/>
+3. <img src="https://i.ibb.co/YPXdZFs/Screenshot-272.png" alt="drawing" width="480"/>
+4. <img src="https://i.ibb.co/QDQhzWb/Screenshot-274.png" alt="drawing" width="480"/>
 
 **Star the Repo**
 
